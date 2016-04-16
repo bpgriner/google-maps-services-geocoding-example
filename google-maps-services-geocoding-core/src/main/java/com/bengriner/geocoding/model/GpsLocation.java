@@ -1,8 +1,7 @@
 package com.bengriner.geocoding.model;
 
 public class GpsLocation {
-    private double latitude;
-    private double longitude;
+    private double latitude,longitude;
 
     public GpsLocation(double latitude, double longitude){
         this.latitude = latitude;

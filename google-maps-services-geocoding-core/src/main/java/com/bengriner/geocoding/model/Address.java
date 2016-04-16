@@ -1,10 +1,7 @@
 package com.bengriner.geocoding.model;
 
 public class Address {
-    private String streetAddress;
-    private String city;
-    private String state;
-    private String zipCode;
+    private String streetAddress, city, state, zipCode;
 
     public Address(String streetAddress, String city, String state, String zipCode) {
         this.streetAddress = streetAddress;
