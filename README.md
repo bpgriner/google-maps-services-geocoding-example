@@ -1,6 +1,6 @@
 # Google Maps Services Geocoding Example
 
-This an example implementation that illustrates how to interact with Google Maps Geocoding API.
+This an example implementation that illustrates how to interact with the Google Maps Geocoding API.
 Due to there being many GPS Coordinate combinations for every address, this example project implements a `LocationVerificationService` that has a `verifyMatch` method which will check if a given set of GPS Coordinates falls within a given Address (according to Google Maps, of course).
 
 Pull requests are always welcome if you see something that could be improved.
