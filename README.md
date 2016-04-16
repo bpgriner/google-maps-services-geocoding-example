@@ -27,3 +27,9 @@ Pull requests are welcome if you see something that could be improved.
   * You should receive a `BUILD SUCCESS` message from Maven
 6. Change directory to `../google-maps-services-geocoding-integration-tests` and run `mvn install` (via bash)
   * You should receive a `Tests run: 15, Failures: 0, Errors: 0, Skipped: 0` as well as a `BUILD SUCCESS` message from Maven 
+
+--
+
+##### Links:
+* The Google Maps Geocoding API: https://developers.google.com/maps/documentation/geocoding/intro
+* googlemaps/google-maps-services on GitHub: https://github.com/googlemaps/google-maps-services-java
