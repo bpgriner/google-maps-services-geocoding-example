@@ -15,7 +15,7 @@ Pull requests are welcome if you see something that could be improved.
 
 --
 
-###### How to Run:
+###### How to Run Integration Tests:
 1. Fork this repository to your GitHub account
   * https://help.github.com/articles/fork-a-repo/
 2. Clone your newly forked repository to your local environment
@@ -23,7 +23,7 @@ Pull requests are welcome if you see something that could be improved.
 3. Get a Google Maps API Server Key
   * https://developers.google.com/maps/documentation/geocoding/get-api-key
 4. Replace `yourGoogleMapsApiServerKeyGoesHere` with your key inside the `LocationVerificationServiceImpl` public constructor
-5. Change directory to `/your/path/to/google-maps-services-geocoding-parent` and run `mvn clean install` (via bash)
+5. Change directory to `/your/path/to/google-maps-services-geocoding-parent` and run `mvn install` (via bash)
   * You should receive a `BUILD SUCCESS` message from Maven
-6. Change directory to `../google-maps-services-geocoding-integration-tests` and run `mvn clean install` (via bash)
+6. Change directory to `../google-maps-services-geocoding-integration-tests` and run `mvn install` (via bash)
   * You should receive a `Tests run: 15, Failures: 0, Errors: 0, Skipped: 0` as well as a `BUILD SUCCESS` message from Maven 

@@ -12,17 +12,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>google-maps-services-geocoding-integration-tests</artifactId>
+    <artifactId>google-maps-services-geocoding-app</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.bengriner.geocoding</groupId>
             <artifactId>google-maps-services-geocoding-core</artifactId>
             <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
 
