@@ -31,5 +31,7 @@ Pull requests are welcome if you see something that could be improved.
 --
 
 ###### Links:
-* The Google Maps Geocoding API: https://developers.google.com/maps/documentation/geocoding/intro
-* `googlemaps/google-maps-services-java` on GitHub: https://github.com/googlemaps/google-maps-services-java
+* The Google Maps Geocoding API
+  * https://developers.google.com/maps/documentation/geocoding/intro
+* `googlemaps/google-maps-services-java` on GitHub
+  * https://github.com/googlemaps/google-maps-services-java
