@@ -15,7 +15,7 @@ public class LocationVerificationServiceImpl implements LocationVerificationServ
 
     public LocationVerificationServiceImpl() {
         context = new GeoApiContext()
-                .setApiKey("AIzaSyBSFlNij8fw5oWmLjgweHtPSrhU_RLaxYk")
+                .setApiKey("yourGoogleMapsApiServerKeyGoesHere")
                 .setQueryRateLimit(3)
                 .setConnectTimeout(1, TimeUnit.SECONDS)
                 .setReadTimeout(1, TimeUnit.SECONDS)
